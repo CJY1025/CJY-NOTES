@@ -37,7 +37,7 @@
 <meta name="generator" content="Hexo 7.2.0"></head>
 
 <body>
-  <div id="container">
+  <div id="container" class="">
     <div id="wrap">
       <header id="header">
   <div id="banner"></div>
@@ -58,7 +58,7 @@
         
           <a class="main-nav-link" href="/CJY-NOTES/">首頁</a>
         
-          <a class="main-nav-link" href="/CJY-NOTES/archives">筆記</a>
+          <a class="main-nav-link" href="/CJY-NOTES/blog">筆記</a>
         
           <a class="main-nav-link" href="/CJY-NOTES/about">關於我</a>
         
@@ -68,10 +68,10 @@
         
           <a class="nav-icon" href="/CJY-NOTES/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
         
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+        <a class="nav-icon nav-search-btn" title="搜尋"><span class="fa fa-search"></span></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://CJY1025.github.io/CJY-NOTES"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="搜尋"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://CJY1025.github.io/CJY-NOTES"></form>
       </div>
     </div>
   </div>
@@ -122,7 +122,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
+    <h3 class="widget-title">標籤</h3>
     <div class="widget">
       <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/CJY-NOTES/tags/ASP-NET/" rel="tag">ASP.NET</a></li><li class="tag-list-item"><a class="tag-list-link" href="/CJY-NOTES/tags/C/" rel="tag">C#</a></li></ul>
     </div>
@@ -132,7 +132,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
+    <h3 class="widget-title">標籤雲</h3>
     <div class="widget tagcloud">
       <a href="/CJY-NOTES/tags/ASP-NET/" style="font-size: 10px;">ASP.NET</a> <a href="/CJY-NOTES/tags/C/" style="font-size: 10px;">C#</a>
     </div>
@@ -141,7 +141,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">彙整</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/CJY-NOTES/archives/2024/05/">五月 2024</a></li></ul>
     </div>
@@ -151,7 +151,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
         
@@ -187,7 +187,7 @@
   
     <a href="/CJY-NOTES/" class="mobile-nav-link">首頁</a>
   
-    <a href="/CJY-NOTES/archives" class="mobile-nav-link">筆記</a>
+    <a href="/CJY-NOTES/blog" class="mobile-nav-link">筆記</a>
   
     <a href="/CJY-NOTES/about" class="mobile-nav-link">關於我</a>
   
@@ -212,5 +212,18 @@
 
 
   </div>
+  <style>
+    .fullPage #main{
+      width: 100px;
+      float: none;
+      margin: 0;
+    }
+    .fullPage .article-meta,
+    .fullPage .article-header,
+    .fullPage .article-footer
+    {
+      display:none
+    }
+  </style>
 </body>
 </html>
